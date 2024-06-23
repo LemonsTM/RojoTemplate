@@ -1,7 +1,7 @@
 local ModuleLoader = {}
 
 local clientModules = {
-    -- Define modules to pre-load here in array format
+    -- Define modules to pre-load here in array structure
     [1] = game.ReplicatedStorage.Client.test
 }
 
