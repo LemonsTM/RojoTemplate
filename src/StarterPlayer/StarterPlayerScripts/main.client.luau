@@ -1,3 +1,4 @@
-require(game.ReplicatedStorage.ModuleLoaders.client).Load()
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Lithium = require(ReplicatedStorage.Lithium)
 
-print('Client loaded!')
+Lithium.Client.loadLithium()

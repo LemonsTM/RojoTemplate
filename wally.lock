@@ -8,9 +8,39 @@ version = "1.12.0"
 dependencies = []
 
 [[package]]
-name = "lemon/nen-saga-recode"
+name = "evaera/promise"
+version = "4.0.0"
+dependencies = []
+
+[[package]]
+name = "lithhash/nensaga"
 version = "0.1.0"
-dependencies = [["cmdr", "evaera/cmdr@1.12.0"], ["table-util", "sleitnick/table-util@1.2.1"]]
+dependencies = [["cmdr", "evaera/cmdr@1.12.0"], ["instance-cache", "penguindevs/instance-cache@1.0.4"], ["maid", "nightcycle/maid@2.0.0"], ["promise", "evaera/promise@4.0.0"], ["roact", "roblox/roact@1.4.4"], ["table-util", "sleitnick/table-util@1.2.1"], ["datakeep", "noahrepublic/datakeep@3.1.2"]]
+
+[[package]]
+name = "lucasmzreal/fastsignal"
+version = "10.2.1"
+dependencies = []
+
+[[package]]
+name = "nightcycle/maid"
+version = "2.0.0"
+dependencies = []
+
+[[package]]
+name = "noahrepublic/datakeep"
+version = "3.1.2"
+dependencies = [["Promise", "evaera/promise@4.0.0"], ["Signal", "lucasmzreal/fastsignal@10.2.1"]]
+
+[[package]]
+name = "penguindevs/instance-cache"
+version = "1.0.4"
+dependencies = []
+
+[[package]]
+name = "roblox/roact"
+version = "1.4.4"
+dependencies = []
 
 [[package]]
 name = "sleitnick/table-util"

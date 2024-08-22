@@ -1,0 +1,8 @@
+[package]
+name = "penguindevs/instance-cache"
+description = "A fork of PartCache by Xan_TheDragon https://devforum.roblox.com/t/partcache-for-all-your-quick-part-creation-needs/246641. InstanceCache is not limited to only BaseParts, but works with any instances too."
+version = "1.0.4"
+license = "MIT"
+authors = ["PenguinDevs", "Xan_TheDragon"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"

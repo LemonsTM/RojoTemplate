@@ -1,0 +1,3 @@
+local MathLibrary = {}
+
+return MathLibrary

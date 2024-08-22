@@ -1,9 +1,19 @@
 [package]
-name = "lemon/nen-saga-recode"
+name = "lithhash/nensaga"
 version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
+[place]
+shared-packages = "game.ReplicatedStorage.Packages"
+
 [dependencies]
 cmdr = "evaera/cmdr@1.12.0"
 table-util = "sleitnick/table-util@1.2.1"
+roact = "roblox/roact@1.4.4"
+maid = "nightcycle/maid@2.0.0"
+promise = "evaera/promise@4.0.0"
+instance-cache = "penguindevs/instance-cache@1.0.4"
+
+[server-dependencies]
+datakeep = "noahrepublic/datakeep@3.1.2"
